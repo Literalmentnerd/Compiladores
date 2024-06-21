@@ -1,0 +1,26 @@
+<program_node>
+    <sequence_node size='3'>
+      <evaluation_node>
+        <assignment_node>
+        <variable_node>x</variable_node>
+            <integer_node>3</integer_node>
+        </assignment_node>
+      </evaluation_node>
+      <evaluation_node>
+        <assignment_node>
+        <variable_node>y</variable_node>
+            <add_node>
+              <rvalue_node>
+                  <variable_node>x</variable_node>
+              </rvalue_node>
+              <integer_node>2</integer_node>
+            </add_node>
+        </assignment_node>
+      </evaluation_node>
+      <print_node>
+        <rvalue_node>
+            <variable_node>y</variable_node>
+        </rvalue_node>
+      </print_node>
+    </sequence_node>
+</program_node>
